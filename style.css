@@ -1,0 +1,144 @@
+body {
+    background: rgb(194, 194, 194);
+    font-family: sans-serif;
+  }
+  h1{
+      margin-bottom: 45px;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    clear: both;
+
+  }
+  
+  ul.lis1 li{
+    border: 5px dashed #9e539e;
+    float:left;
+    width: 10em;
+    margin-left: .5em;
+    padding: 1em;
+    background-color: #5ed67c;
+    color: #81089c;
+    text-align: center;
+  }
+  
+  ul.lis2 {
+    text-align: center;
+  }
+  
+  ul.lis2 li {
+    border: white 2px solid;
+    border-color: white black black white;
+    display: inline;
+    margin: 0em 0.5em;
+    padding: 0.25em 0.5em;
+    background-color: white;
+  }
+  
+  ul.lis2 li:hover {
+    border: white 2px solid;
+    border-color: black white white black;
+    background-color: lightgray;
+  }
+  
+  ul.lis3 {
+    border: black 1px solid;
+    padding: 0.5em;
+    width: 11em;
+    text-align: center;
+  }
+  
+  ul.lis3 li {
+    border: black 1px solid;
+    padding: 0.5em;
+    text-align: center;
+    background-color: white;
+    width: 9em;
+    margin: 0.5em 0 0.5em 0.5em;
+  }
+  
+  ul.lis4 {
+    text-align: center;
+  }
+  
+  ul.lis4 li {
+    background-color: white;
+    color: #2e5ebd;
+    display: inline-block;
+    width: 10em;
+    margin: 0;
+    padding: 0.5em 0;
+    font-weight: bold;
+  }
+  
+  ul.lis4 li.par {
+    background-color: #3e72db;
+    color: white;
+  }
+  
+  @font-face {
+    font-family: "MiMenu";
+    src: url("menu.woff");
+  }
+  
+  [class^="icon-"], [class*="icon-"] {
+    margin-right: 3px;
+    font-family: "Mimenu";
+    font-style: normal;
+  }
+  
+  .icon-inicio {
+    border: 10px;
+  }
+  
+  .icon-anadir {
+    border: 10px;
+
+  }
+  .icon-listar {
+    border: 10px;
+
+  }
+  .icon-borrar {
+    border: 10px;
+
+  }
+  .icon-buscar {
+    border: 10px;
+
+  }
+  .icon-modificar {
+    border: 10px;
+
+  }
+  .icon-salir {
+    border: 10px;
+
+  }
+  
+  ul.lista5 li {
+    float:left;
+    margin-right: 2em;
+  }
+  
+  ul.lis6 {
+    text-align: center;
+  }
+  
+  ul.lis6 li {
+    display: inline;
+    border: black 0.1em solid;
+    border-radius: 0.3em;
+    margin-right: 1em;
+    padding: 0.5em 0.5em 0.3em;
+    background-color: white;
+    font-size: 200%;
+    line-height: 250%;
+  }
+  
+  ul.lis6 li {
+    margin: 0;
+  }
+  
