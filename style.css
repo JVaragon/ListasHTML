@@ -89,35 +89,6 @@ body {
     font-style: normal;
   }
   
-  .icon-inicio {
-    border: 10px;
-  }
-  
-  .icon-anadir {
-    border: 10px;
-
-  }
-  .icon-listar {
-    border: 10px;
-
-  }
-  .icon-borrar {
-    border: 10px;
-
-  }
-  .icon-buscar {
-    border: 10px;
-
-  }
-  .icon-modificar {
-    border: 10px;
-
-  }
-  .icon-salir {
-    border: 10px;
-
-  }
-  
   ul.lista5 li {
     float:left;
     margin-right: 2em;
